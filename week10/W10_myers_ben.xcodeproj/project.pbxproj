@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD475B2B1FA8E61D006E7CE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B2A1FA8E61D006E7CE6 /* AppDelegate.swift */; };
+		BD475B2D1FA8E61D006E7CE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B2C1FA8E61D006E7CE6 /* ViewController.swift */; };
+		BD475B301FA8E61D006E7CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD475B2E1FA8E61D006E7CE6 /* Main.storyboard */; };
+		BD475B331FA8E61D006E7CE6 /* W10_myers_ben.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD475B311FA8E61D006E7CE6 /* W10_myers_ben.xcdatamodeld */; };
+		BD475B351FA8E61D006E7CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD475B341FA8E61D006E7CE6 /* Assets.xcassets */; };
+		BD475B381FA8E61D006E7CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD475B361FA8E61D006E7CE6 /* LaunchScreen.storyboard */; };
+		BD475B431FA8E61D006E7CE6 /* W10_myers_benTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B421FA8E61D006E7CE6 /* W10_myers_benTests.swift */; };
+		BD475B4E1FA8E61D006E7CE6 /* W10_myers_benUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B4D1FA8E61D006E7CE6 /* W10_myers_benUITests.swift */; };
+		BD475B691FA8EDDB006E7CE6 /* Song+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B651FA8EDDB006E7CE6 /* Song+CoreDataClass.swift */; };
+		BD475B6A1FA8EDDB006E7CE6 /* Song+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B661FA8EDDB006E7CE6 /* Song+CoreDataProperties.swift */; };
+		BD475B6B1FA8EDDB006E7CE6 /* Album+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B671FA8EDDB006E7CE6 /* Album+CoreDataClass.swift */; };
+		BD475B6C1FA8EDDB006E7CE6 /* Album+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B681FA8EDDB006E7CE6 /* Album+CoreDataProperties.swift */; };
+		BD475B6E1FA8F03D006E7CE6 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B6D1FA8F03D006E7CE6 /* AlbumListViewController.swift */; };
+		BD475B701FA8F04A006E7CE6 /* SongListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475B6F1FA8F04A006E7CE6 /* SongListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD475B3F1FA8E61D006E7CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD475B1F1FA8E61D006E7CE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD475B261FA8E61D006E7CE6;
+			remoteInfo = W10_myers_ben;
+		};
+		BD475B4A1FA8E61D006E7CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD475B1F1FA8E61D006E7CE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD475B261FA8E61D006E7CE6;
+			remoteInfo = W10_myers_ben;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD475B271FA8E61D006E7CE6 /* W10_myers_ben.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W10_myers_ben.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD475B2A1FA8E61D006E7CE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD475B2C1FA8E61D006E7CE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD475B2F1FA8E61D006E7CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD475B321FA8E61D006E7CE6 /* W10_myers_ben.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = W10_myers_ben.xcdatamodel; sourceTree = "<group>"; };
+		BD475B341FA8E61D006E7CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD475B371FA8E61D006E7CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD475B391FA8E61D006E7CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD475B3E1FA8E61D006E7CE6 /* W10_myers_benTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W10_myers_benTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD475B421FA8E61D006E7CE6 /* W10_myers_benTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W10_myers_benTests.swift; sourceTree = "<group>"; };
+		BD475B441FA8E61D006E7CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD475B491FA8E61D006E7CE6 /* W10_myers_benUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W10_myers_benUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD475B4D1FA8E61D006E7CE6 /* W10_myers_benUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W10_myers_benUITests.swift; sourceTree = "<group>"; };
+		BD475B4F1FA8E61D006E7CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD475B651FA8EDDB006E7CE6 /* Song+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Song+CoreDataClass.swift"; path = "W10_myers_ben/Song+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BD475B661FA8EDDB006E7CE6 /* Song+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Song+CoreDataProperties.swift"; path = "W10_myers_ben/Song+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BD475B671FA8EDDB006E7CE6 /* Album+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Album+CoreDataClass.swift"; path = "W10_myers_ben/Album+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BD475B681FA8EDDB006E7CE6 /* Album+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Album+CoreDataProperties.swift"; path = "W10_myers_ben/Album+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BD475B6D1FA8F03D006E7CE6 /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
+		BD475B6F1FA8F04A006E7CE6 /* SongListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD475B241FA8E61D006E7CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD475B3B1FA8E61D006E7CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD475B461FA8E61D006E7CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD475B1E1FA8E61D006E7CE6 = {
+			isa = PBXGroup;
+			children = (
+				BD475B651FA8EDDB006E7CE6 /* Song+CoreDataClass.swift */,
+				BD475B661FA8EDDB006E7CE6 /* Song+CoreDataProperties.swift */,
+				BD475B671FA8EDDB006E7CE6 /* Album+CoreDataClass.swift */,
+				BD475B681FA8EDDB006E7CE6 /* Album+CoreDataProperties.swift */,
+				BD475B291FA8E61D006E7CE6 /* W10_myers_ben */,
+				BD475B411FA8E61D006E7CE6 /* W10_myers_benTests */,
+				BD475B4C1FA8E61D006E7CE6 /* W10_myers_benUITests */,
+				BD475B281FA8E61D006E7CE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD475B281FA8E61D006E7CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD475B271FA8E61D006E7CE6 /* W10_myers_ben.app */,
+				BD475B3E1FA8E61D006E7CE6 /* W10_myers_benTests.xctest */,
+				BD475B491FA8E61D006E7CE6 /* W10_myers_benUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD475B291FA8E61D006E7CE6 /* W10_myers_ben */ = {
+			isa = PBXGroup;
+			children = (
+				BD475B2A1FA8E61D006E7CE6 /* AppDelegate.swift */,
+				BD475B2C1FA8E61D006E7CE6 /* ViewController.swift */,
+				BD475B2E1FA8E61D006E7CE6 /* Main.storyboard */,
+				BD475B6D1FA8F03D006E7CE6 /* AlbumListViewController.swift */,
+				BD475B6F1FA8F04A006E7CE6 /* SongListViewController.swift */,
+				BD475B341FA8E61D006E7CE6 /* Assets.xcassets */,
+				BD475B361FA8E61D006E7CE6 /* LaunchScreen.storyboard */,
+				BD475B391FA8E61D006E7CE6 /* Info.plist */,
+				BD475B311FA8E61D006E7CE6 /* W10_myers_ben.xcdatamodeld */,
+			);
+			path = W10_myers_ben;
+			sourceTree = "<group>";
+		};
+		BD475B411FA8E61D006E7CE6 /* W10_myers_benTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD475B421FA8E61D006E7CE6 /* W10_myers_benTests.swift */,
+				BD475B441FA8E61D006E7CE6 /* Info.plist */,
+			);
+			path = W10_myers_benTests;
+			sourceTree = "<group>";
+		};
+		BD475B4C1FA8E61D006E7CE6 /* W10_myers_benUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD475B4D1FA8E61D006E7CE6 /* W10_myers_benUITests.swift */,
+				BD475B4F1FA8E61D006E7CE6 /* Info.plist */,
+			);
+			path = W10_myers_benUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD475B261FA8E61D006E7CE6 /* W10_myers_ben */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD475B521FA8E61D006E7CE6 /* Build configuration list for PBXNativeTarget "W10_myers_ben" */;
+			buildPhases = (
+				BD475B231FA8E61D006E7CE6 /* Sources */,
+				BD475B241FA8E61D006E7CE6 /* Frameworks */,
+				BD475B251FA8E61D006E7CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = W10_myers_ben;
+			productName = W10_myers_ben;
+			productReference = BD475B271FA8E61D006E7CE6 /* W10_myers_ben.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD475B3D1FA8E61D006E7CE6 /* W10_myers_benTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD475B551FA8E61D006E7CE6 /* Build configuration list for PBXNativeTarget "W10_myers_benTests" */;
+			buildPhases = (
+				BD475B3A1FA8E61D006E7CE6 /* Sources */,
+				BD475B3B1FA8E61D006E7CE6 /* Frameworks */,
+				BD475B3C1FA8E61D006E7CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD475B401FA8E61D006E7CE6 /* PBXTargetDependency */,
+			);
+			name = W10_myers_benTests;
+			productName = W10_myers_benTests;
+			productReference = BD475B3E1FA8E61D006E7CE6 /* W10_myers_benTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD475B481FA8E61D006E7CE6 /* W10_myers_benUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD475B581FA8E61D006E7CE6 /* Build configuration list for PBXNativeTarget "W10_myers_benUITests" */;
+			buildPhases = (
+				BD475B451FA8E61D006E7CE6 /* Sources */,
+				BD475B461FA8E61D006E7CE6 /* Frameworks */,
+				BD475B471FA8E61D006E7CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD475B4B1FA8E61D006E7CE6 /* PBXTargetDependency */,
+			);
+			name = W10_myers_benUITests;
+			productName = W10_myers_benUITests;
+			productReference = BD475B491FA8E61D006E7CE6 /* W10_myers_benUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD475B1F1FA8E61D006E7CE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "MYERS BENJAMIN D";
+				TargetAttributes = {
+					BD475B261FA8E61D006E7CE6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					BD475B3D1FA8E61D006E7CE6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD475B261FA8E61D006E7CE6;
+					};
+					BD475B481FA8E61D006E7CE6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD475B261FA8E61D006E7CE6;
+					};
+				};
+			};
+			buildConfigurationList = BD475B221FA8E61D006E7CE6 /* Build configuration list for PBXProject "W10_myers_ben" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD475B1E1FA8E61D006E7CE6;
+			productRefGroup = BD475B281FA8E61D006E7CE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD475B261FA8E61D006E7CE6 /* W10_myers_ben */,
+				BD475B3D1FA8E61D006E7CE6 /* W10_myers_benTests */,
+				BD475B481FA8E61D006E7CE6 /* W10_myers_benUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD475B251FA8E61D006E7CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD475B381FA8E61D006E7CE6 /* LaunchScreen.storyboard in Resources */,
+				BD475B351FA8E61D006E7CE6 /* Assets.xcassets in Resources */,
+				BD475B301FA8E61D006E7CE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD475B3C1FA8E61D006E7CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD475B471FA8E61D006E7CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD475B231FA8E61D006E7CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD475B2D1FA8E61D006E7CE6 /* ViewController.swift in Sources */,
+				BD475B2B1FA8E61D006E7CE6 /* AppDelegate.swift in Sources */,
+				BD475B701FA8F04A006E7CE6 /* SongListViewController.swift in Sources */,
+				BD475B691FA8EDDB006E7CE6 /* Song+CoreDataClass.swift in Sources */,
+				BD475B331FA8E61D006E7CE6 /* W10_myers_ben.xcdatamodeld in Sources */,
+				BD475B6E1FA8F03D006E7CE6 /* AlbumListViewController.swift in Sources */,
+				BD475B6A1FA8EDDB006E7CE6 /* Song+CoreDataProperties.swift in Sources */,
+				BD475B6C1FA8EDDB006E7CE6 /* Album+CoreDataProperties.swift in Sources */,
+				BD475B6B1FA8EDDB006E7CE6 /* Album+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD475B3A1FA8E61D006E7CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD475B431FA8E61D006E7CE6 /* W10_myers_benTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD475B451FA8E61D006E7CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD475B4E1FA8E61D006E7CE6 /* W10_myers_benUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD475B401FA8E61D006E7CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD475B261FA8E61D006E7CE6 /* W10_myers_ben */;
+			targetProxy = BD475B3F1FA8E61D006E7CE6 /* PBXContainerItemProxy */;
+		};
+		BD475B4B1FA8E61D006E7CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD475B261FA8E61D006E7CE6 /* W10_myers_ben */;
+			targetProxy = BD475B4A1FA8E61D006E7CE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD475B2E1FA8E61D006E7CE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD475B2F1FA8E61D006E7CE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD475B361FA8E61D006E7CE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD475B371FA8E61D006E7CE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD475B501FA8E61D006E7CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD475B511FA8E61D006E7CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD475B531FA8E61D006E7CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = W10_myers_ben/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.bemy.W10-myers-ben";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD475B541FA8E61D006E7CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = W10_myers_ben/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.bemy.W10-myers-ben";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD475B561FA8E61D006E7CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = W10_myers_benTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.bemy.W10-myers-benTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W10_myers_ben.app/W10_myers_ben";
+			};
+			name = Debug;
+		};
+		BD475B571FA8E61D006E7CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = W10_myers_benTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.bemy.W10-myers-benTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W10_myers_ben.app/W10_myers_ben";
+			};
+			name = Release;
+		};
+		BD475B591FA8E61D006E7CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = W10_myers_benUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.bemy.W10-myers-benUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = W10_myers_ben;
+			};
+			name = Debug;
+		};
+		BD475B5A1FA8E61D006E7CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = W10_myers_benUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.bemy.W10-myers-benUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = W10_myers_ben;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD475B221FA8E61D006E7CE6 /* Build configuration list for PBXProject "W10_myers_ben" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD475B501FA8E61D006E7CE6 /* Debug */,
+				BD475B511FA8E61D006E7CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD475B521FA8E61D006E7CE6 /* Build configuration list for PBXNativeTarget "W10_myers_ben" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD475B531FA8E61D006E7CE6 /* Debug */,
+				BD475B541FA8E61D006E7CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD475B551FA8E61D006E7CE6 /* Build configuration list for PBXNativeTarget "W10_myers_benTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD475B561FA8E61D006E7CE6 /* Debug */,
+				BD475B571FA8E61D006E7CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD475B581FA8E61D006E7CE6 /* Build configuration list for PBXNativeTarget "W10_myers_benUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD475B591FA8E61D006E7CE6 /* Debug */,
+				BD475B5A1FA8E61D006E7CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD475B311FA8E61D006E7CE6 /* W10_myers_ben.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD475B321FA8E61D006E7CE6 /* W10_myers_ben.xcdatamodel */,
+			);
+			currentVersion = BD475B321FA8E61D006E7CE6 /* W10_myers_ben.xcdatamodel */;
+			path = W10_myers_ben.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD475B1F1FA8E61D006E7CE6 /* Project object */;
+}
